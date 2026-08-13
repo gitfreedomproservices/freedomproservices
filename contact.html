@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | Freedom Pro Services</title>
+  <meta name="description" content="Contact Freedom Pro Services to discuss a commercial renovation, build-out, construction or finish-work project." />
+  <meta name="theme-color" content="#17231c" />
+  <link rel="icon" href="assets/freedom-pro-mark.svg" type="image/svg+xml" />
+  <link rel="alternate icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Freedom Pro Services home"><img class="brand-logo" src="assets/freedom-pro-logo.svg" alt="Freedom Pro Services" /></a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="index.html#standards">Why Us</a>
+        <a href="contact.html" aria-current="page">Contact Us</a>
+      </nav>
+      <a class="button button-small header-cta" href="#contact-form">Start a Project</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="inner-hero contact-hero">
+      <div class="inner-hero-shade"></div>
+      <div class="shell inner-hero-content reveal">
+        <div class="eyebrow light">Get in touch</div>
+        <h1>Contact Us</h1>
+        <p>Have a project in mind? Send the details below and we’ll have the information needed to start the conversation.</p>
+      </div>
+    </section>
+
+    <section class="section contact-page-section">
+      <div class="shell contact-page-grid">
+        <div class="contact-card reveal">
+          <div class="eyebrow">Project inquiry</div>
+          <h2>Starting a project?</h2>
+          <p>Whether you are planning a renovation, commercial build-out, upgrade or finish-work project, tell us what you need and where the work is located.</p>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="contact-icon" aria-hidden="true">@</span>
+              <div><small>Email</small><a href="mailto:hello@freedomproservices.com">hello@freedomproservices.com</a></div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon" aria-hidden="true">⌖</span>
+              <div><small>Service Area</small><p>Commercial projects across the United States</p></div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon" aria-hidden="true">✓</span>
+              <div><small>What to include</small><p>Location, project type, approximate scope and timing.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form contact-form-large reveal emailjs-form" id="contact-form" novalidate>
+          <div class="field-row">
+            <label>Full Name<input type="text" name="name" autocomplete="name" placeholder="Your name" required /></label>
+            <label>Company<input type="text" name="company" autocomplete="organization" placeholder="Company name" /></label>
+          </div>
+          <div class="field-row">
+            <label>Email Address<input type="email" name="email" autocomplete="email" placeholder="you@company.com" required /></label>
+            <label>Phone Number<input type="tel" name="phone" autocomplete="tel" placeholder="Your phone number" /></label>
+          </div>
+          <div class="field-row">
+            <label>Project Location<input type="text" name="location" placeholder="City, State" /></label>
+            <label>Subject<input type="text" name="subject" placeholder="Commercial renovation" required /></label>
+          </div>
+          <label>Message<textarea name="message" rows="7" placeholder="Tell us about your project, scope and target timing." required></textarea></label>
+          <label class="consent-row"><input type="checkbox" name="sms_consent" /> <span>By checking this box, you agree that Freedom Pro Services may contact you by text regarding your inquiry. Reply STOP to opt out.</span></label>
+          <button class="button button-dark form-submit" type="submit">Send Message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+          <p class="form-note">Your information is used to respond to your inquiry. By submitting, you agree to our <a href="terms.html">Terms &amp; Conditions</a>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-top">
+      <a class="brand footer-brand" href="index.html" aria-label="Freedom Pro Services home"><img class="brand-logo footer-logo" src="assets/freedom-pro-logo-light.svg" alt="Freedom Pro Services" /></a>
+      <p>Commercial renovation, construction coordination and detail-first finishes.</p>
+      <div class="footer-links">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#process">Process</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© <span class="js-year"></span> Freedom Pro Services. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
