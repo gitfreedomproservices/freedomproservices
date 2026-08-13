@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68" role="img" aria-label="Freedom Pro Services">
+  <path d="M34 2 64 18v32L34 66 4 50V18L34 2Z" fill="#17231c"/>
+  <path d="M18 49V19h25v7H26v6h14v7H26v10h-8Z" fill="#caa36b"/>
+  <path d="M40 49V19h8.4C56.8 19 62 23.5 62 30.4c0 6.8-5.2 11.6-13.6 11.6H48v7h-8Zm8-14h.7c3.6 0 5.7-1.7 5.7-4.6S52.3 26 48.7 26H48v9Z" fill="#f4eadb" opacity=".96"/>
+  <path d="M9 16 34 3l25 13" stroke="#e4c18d" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+</svg>
